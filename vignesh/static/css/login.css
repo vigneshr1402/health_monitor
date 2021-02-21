@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #4568dc;
+  background: -webkit-gradient(linear, left top, right top, from(#b06ab3), to(#4568dc));
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .heading {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .heading h1 {
+  letter-spacing: 4px;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header .logo img {
+  margin-left: 10px;
+  height: 140%;
+}
+
+header .exit {
+  width: 10%;
+}
+
+main {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container {
+  background: #7f7fd5;
+  background: -webkit-gradient(linear, left top, right top, from(#91eae4), color-stop(#86a8e7), to(#7f7fd5));
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  height: 60%;
+  border-radius: 25px;
+}
+
+main .container h1 {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+main .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+}
+
+main .container form .names {
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+main .container form .names input {
+  width: 70%;
+  margin-left: 10px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+main .container form .pass {
+  width: 90%;
+}
+
+main .container form .pass input {
+  width: 70%;
+  margin-left: 27px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+main .container form input[type="submit"] {
+  margin-top: 30px;
+  width: 100px;
+  height: 45px;
+  font-family: "Roboto Condensed", sans-serif;
+  background: #126cce;
+  color: antiquewhite;
+  border: 2px solid #126cce;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+main .container form input[type="submit"]:hover {
+  border: 1px solid antiquewhite;
+}
+
+footer {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=login.css.map */
